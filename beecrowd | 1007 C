@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+    int main() {
+
+        int n1, n2,n3,n4;
+        int x,y,res;
+
+        scanf("%d", & n1);
+        scanf("%d", & n2);
+        scanf("%d", & n3);
+        scanf("%d", & n4);
+
+        (x=n1*n2);
+        (y=n3*n4);
+        (res= x-y);
+
+        printf("DIFERENCA = %d\n",res);
+
+    return 0;
+}
