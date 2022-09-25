@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+    int main() {
+        char nome [10];
+        double salario, bonus,total;
+
+        scanf("%s",&nome); // s pra frases ou palavras, c para letras.
+        scanf("%lf %lf", &salario, &bonus);// floaf é %f double é %lf, lembrar.
+
+
+        (total = salario+bonus*.15); // aqui o total é o salario + montante + bonus de comição 
+        
+        printf("TOTAL = R$ %.2lf\n",total);
+
+    return 0;
+}
