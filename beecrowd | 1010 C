@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+    int main() {
+        int n1,n2, n1v2,n2v2;// n1 = codigo do item, n2 = quanntidade de itens
+        float n3,n3v2,total; //n3= o preço do item, e o total
+
+
+        //1
+        scanf("%d %d",&n1,&n2);//codigo e quantidade de itens
+        scanf("%f", &n3); // preço
+
+        //2
+        scanf("%d %d",&n1v2,&n2v2);//codigo e quantidade de itens
+        scanf("%f", &n3v2); // preço
+
+        (total=(n2*n3)+(n2v2*n3v2));
+
+
+        printf("VALOR A PAGAR: R$ %.2f\n", total);
+
+    return 0;
+}
