@@ -1,0 +1,14 @@
+//tarefa 3.
+
+#include <stdio.h>
+#include <math.h>
+
+int main(void) {
+   int numeros, entrada, i;
+
+   scanf("%d", &entrada);
+   for (i = 0; i < entrada; ++i) {
+      scanf("%d", &numeros);
+      printf("%d\n", (int)pow(2, numeros) - 1);
+   }
+}
