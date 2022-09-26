@@ -1,0 +1,34 @@
+// tarefa 2
+
+#include <stdio.h>
+
+int main(void)
+{
+    int largura, i, estrelas, limite;
+
+    while (scanf("%d", &largura) == 1)
+    {
+
+        for (i = 0; i < largura; i += 2)
+        {
+            for (estrelas = 0; estrelas < (largura - i) / 2; estrelas++)
+                printf(" ");
+
+            for (limite = i; limite >= 0; limite--)
+                printf("*");
+
+            printf("\n");
+        }
+
+        for (i = 0; i < largura/2; i++)
+            printf(" ");
+        printf("*\n");
+
+        for (i = 1; i < largura/2; i++)
+            printf(" ");
+
+        printf("***\n\n");
+
+    }
+    return 0;
+}
