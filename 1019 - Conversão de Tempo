@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class Main {
+ 
+    public static void main(String[] args) {
+        Scanner leitor = new Scanner(System.in);
+          
+        int segundos = leitor.nextInt();
+          
+        int horas = segundos / 3600;
+        segundos %=3600;
+            
+        int minutos = segundos / 60;
+            segundos %=60;
+            
+        System.out.println(horas+":"+ minutos+ ":"+ segundos); 
+        
+
+        
+    }
+     
+}
